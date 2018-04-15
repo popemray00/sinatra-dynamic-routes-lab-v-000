@@ -30,14 +30,14 @@ class App < Sinatra::Base
     answer = ' '
 
     case params[:operation]
-    when 'add'
-     answer = (number1 + number2).to_s
-    when 'subtract'
-     answer = (number1 - number2).to_s
-    when 'multiply'
-     answer = (number1 * number2).to_s
-    when 'divide'
-     answer = (number1 / number2).to_s
+      when 'add'
+       answer = (number1 + number2).to_s
+      when 'subtract'
+       answer = (number1 - number2).to_s
+      when 'multiply'
+       answer = (number1 * number2).to_s
+      when 'divide'
+       answer = (number1 / number2).to_s
     end
   end
 end
